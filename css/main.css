@@ -1,0 +1,135 @@
+.button.green:active,
+.button.red:active,
+.button.red:focus,
+.button.yellow:active,
+.button.yellow:focus {
+    outline: 0;
+    box-shadow: none
+}
+html {
+    overflow-x: hidden
+}
+header img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 5%
+}
+.button {
+    width: 100%;
+    height: 70px;
+    border-radius: 0
+}
+.button.purple {
+    background-color: #94A7F8;
+    border-color: #94A7F8
+}
+.button.yellow,
+.button.yellow:active,
+.button.yellow:focus {
+    background-color: #F4D648;
+    border-color: #F4D648
+}
+.padding-top {
+    padding-top: 50px
+}
+.mob-h-sty {
+    text-align: center;
+    width: 1050px
+}
+.des-h-sty,
+.tab-h-sty,
+.tab-p-sty {
+    text-align: left
+}
+.tab-h-sty {
+    padding-left: 20px;
+    width: 650px
+}
+.tab-p-sty {
+    padding-left: 20px;
+    width: 530px;
+    font-size: 15px
+}
+.col-lg-4>.purple,
+.col-lg-4>.yellow {
+    border-radius: 25px
+}
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em
+}
+.section-paragraph {
+    margin: 30px 0;
+    color: #A1A5A6
+}
+.footer {
+    background-color: #DADADA;
+    padding-bottom: 40px
+}
+a {
+    color: #000
+}
+ul {
+    list-style: none
+}
+.pad-foo-top {
+    padding-top: 25px
+}
+.pad-ul-top {
+    padding-top: 10px
+}
+.footer-links-heading {
+    padding-left: 40px
+}
+.pad-left {
+    padding-left: 0
+}
+.right-align {
+    text-align: right
+}
+.button.purple:active,
+.button.purple:focus {
+    background-color: #94A7F8;
+    border-color: #94A7F8;
+    outline: 0;
+    box-shadow: none
+}
+.button.red,
+.button.red:active,
+.button.red:focus {
+    background-color: #F8758F;
+    border-color: #F8758F
+}
+.button.green,
+.button.green:active,
+.button.yellow:focus {
+    background-color: #89F588;
+    border-color: #89F588
+}
+@media(max-width:991px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px
+    }
+    .section-heading {
+        font-size: 30px;
+        font-weight: 400
+    }
+    .col-sm-12 {
+        text-align: center;
+        margin-top: 3%
+    }
+    .col-sm-12 .button {
+        width: 50%
+    }
+}
+@media(max-width:768px) {
+    .col-sm-12 {
+        margin-top: 0
+    }
+    .button {
+        margin-top: 3%;
+        width: 100%!important;
+        border-radius: 4px
+    }
+}
